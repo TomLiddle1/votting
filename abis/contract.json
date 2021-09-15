@@ -1,0 +1,77 @@
+[
+	{
+		"inputs": [],
+		"name": "getVoteResult",
+		"outputs": [
+			{
+				"internalType": "bool",
+				"name": "votting_result",
+				"type": "bool"
+			},
+			{
+				"internalType": "uint256",
+				"name": "support_num",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "against_num",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "proposal",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "proposal_id",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "_proposal",
+				"type": "string"
+			}
+		],
+		"name": "setProposal",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "bool",
+				"name": "voting",
+				"type": "bool"
+			}
+		],
+		"name": "vote",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	}
+]
